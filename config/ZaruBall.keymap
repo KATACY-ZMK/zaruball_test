@@ -118,7 +118,7 @@
 
         raise_layer {
             display-name = "Raise";
-            sensor-bindings = <&inc_dec_kp LS(LG(RIGHT_ARROW)) LG(LS(LEFT_ARROW))>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
             bindings = <
 &trans  &none  &none  &none      &none             &none                            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &none
 &trans  &none  &none  &none      &none             &none                            &none         &none         &kp UP_ARROW  &none           &bt BT_CLR_ALL  &bt BT_CLR
