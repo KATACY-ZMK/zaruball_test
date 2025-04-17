@@ -112,7 +112,7 @@
 
         lower_layer {
             display-name = "Lower";
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
             bindings = <
 &trans  &none           &none  &none         &none             &none                                  &none          &none         &none         &none           &none      &none
 &trans  &none           &none  &kp CAPSLOCK  &mkp MB3          &kp PRINTSCREEN                        &none          &none         &kp UP_ARROW  &none           &none      &none
